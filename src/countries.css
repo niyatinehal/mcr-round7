@@ -1,0 +1,8 @@
+.countries{
+    display: flex;
+    flex-direction: column;
+}
+.country-list{
+    display: flex;
+   justify-content: space-evenly;
+}

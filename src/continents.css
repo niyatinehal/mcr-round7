@@ -1,0 +1,8 @@
+.continents{
+    display: flex;
+    justify-content: space-evenly;
+}
+.continent-img, img{
+    border-radius: 2rem;
+    
+}
