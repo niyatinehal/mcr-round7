@@ -25,12 +25,12 @@ export const CountriesPage = () => {
       <div className="country-list">
         {countries.map((country) => (
         <div key={country.id}>
-        <div  >
+        <div onClick={() => {selectCountry(country);nav('/destinations')}} >
             <img src={country.image} alt={country.name} width="200" />
           <h2>{country.name}</h2>
         </div>
-          
-          <button onClick={() => {selectCountry(country);nav('/destinations')}}>Select Country</button>
+{/*           
+          <button >Select Country</button> */}
         </div>
       ))}
       </div>
